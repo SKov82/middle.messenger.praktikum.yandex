@@ -5,7 +5,7 @@
   "source": "src/static/index.hbs",
   "scripts": {
     "dev": "parcel --no-cache",
-    "build": "parcel build && node server.js --no-cache",
+    "build": "parcel build",
     "express": "yarn run start"
   },
   "keywords": [],

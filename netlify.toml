@@ -7,4 +7,4 @@
 
 [build]
   publish = "dist"
-  command = "yarn run <some>"
+  command = "CI= npm run build"
