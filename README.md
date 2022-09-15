@@ -1,6 +1,6 @@
 # Web Chat (messenger)
 
-#### Click [Deployed build on Netlify](https://fancy-biscuit-fe12f7.netlify.app/) to open the messenger.
+#### Click [Deployed build on Netlify](https://web-chat-messenger.netlify.app/) to open the messenger.
 
 #### This [UI prototype](https://www.figma.com/file/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link?node-id=0%3A1) is taken as a sample.
 
