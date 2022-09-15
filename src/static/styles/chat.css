@@ -1,6 +1,6 @@
 .chat {
     display: flex;
-    height: 100vh;
+    height: calc(100vh - 35px);
     background: #FBFBFB;
 }
 
@@ -160,7 +160,7 @@
     width: 210px;
     height: 90px;
     background: #FFFFFF;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
     border-radius: 12px;
     padding: 15px;
     font-size: 14px;
@@ -256,7 +256,7 @@
     width: 165px;
     height: 128px;
     background: #FFFFFF;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
     border-radius: 12px;
     padding: 15px;
     font-size: 14px;

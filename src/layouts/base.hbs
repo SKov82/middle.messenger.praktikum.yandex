@@ -7,8 +7,13 @@
     <title>{{ title }}</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/header.css">
+    {{#each styles}}
+        <link rel="stylesheet" href="{{this}}">
+    {{/each}}
 </head>
 <body>
-    {{> "header/header"}}
+    {{> header}}
+
+    {{{body}}}
 </body>
 </html>

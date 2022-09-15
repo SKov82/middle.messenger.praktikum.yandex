@@ -1,0 +1,63 @@
+---
+title: "Web chat | Edit profile"
+styles:
+    - "./styles/profile.css"
+    - "./styles/edit_profile.css"
+---
+
+{{!< base}}
+
+<main class="profile-container">
+    <div class="profile-back">
+        <a href="profile.hbs" class="profile-back__arrow">
+            <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="13" y="6.80005" width="11" height="1.6" transform="rotate(-180 13 6.80005)" fill="white" />
+                <path d="M6 11L2 6L6 1" stroke="white" stroke-width="1.6" />
+            </svg>
+        </a>
+    </div>
+
+    <div class="profile-separator"></div>
+
+    <form class="profile">
+        <div class="profile__avatar">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M36 2H4C2.89543 2 2 2.89543 2 4V25.2667L14.6547 22.3139C15.5486 22.1053 16.4635 22 17.3814 22H22.6186C23.5365 22 24.4514 22.1053 25.3453 22.3139L38 25.2667V4C38 2.89543 37.1046 2 36 2ZM4 0C1.79086 0 0 1.79086 0 4V36C0 38.2091 1.79086 40 4 40H36C38.2091 40 40 38.2091 40 36V4C40 1.79086 38.2091 0 36 0H4ZM10.9091 14.5455C12.9174 14.5455 14.5455 12.9174 14.5455 10.9091C14.5455 8.90079 12.9174 7.27273 10.9091 7.27273C8.90082 7.27273 7.27276 8.90079 7.27276 10.9091C7.27276 12.9174 8.90082 14.5455 10.9091 14.5455Z"
+                    fill="#CDCDCD" />
+            </svg>
+        </div>
+
+        <div class="profile__info">
+            <span class="profile__info_key">Почта</span>
+            <input type="email" name="email" class="profile__info_value" value="skov@ya.ru">
+        </div>
+
+        <div class="profile__info">
+            <span class="profile__info_key">Логин</span>
+            <input type="text" name="login" class="profile__info_value" value="SergeyKov">
+        </div>
+
+        <div class="profile__info">
+            <span class="profile__info_key">Имя</span>
+            <input type="text" name="first_name" class="profile__info_value" value="Сергей">
+        </div>
+
+        <div class="profile__info">
+            <span class="profile__info_key">Фамилия</span>
+            <input type="text" name="second_name" class="profile__info_value" value="Ковригин">
+        </div>
+
+        <div class="profile__info">
+            <span class="profile__info_key">Имя в чате</span>
+            <input type="text" name="display_name" class="profile__info_value" value="Сергей">
+        </div>
+
+        <div class="profile__info">
+            <span class="profile__info_key">Телефон</span>
+            <input type="tel" name="phone" class="profile__info_value" value="+7 (999) 555 33 33">
+        </div>
+
+        <button type="submit" class="profile__save">Сохранить</button>
+    </form>
+</main>
