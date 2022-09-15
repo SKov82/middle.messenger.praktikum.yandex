@@ -62,39 +62,6 @@
     text-align: center;
 }
 
-/* dialog {
-    width: 340px;
-    height: 257px;
-    left: calc(100% / 2 - 340px / 2 + 64px / 2);
-    top: calc(100% / 2 - 257px / 2);
-    background: #FFFFFF;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.14);
-    border-radius: 12px;
-    padding: 40px 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    cursor: auto;
-}
-dialog::backdrop {
-    background: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(1px);
-} */
-/* .dialog__title {
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    color: #1E1E1E;
-}
-dialog button {
-    width: 280px;
-    height: 37px;
-    background: #3369F3;
-    border-radius: 8px;
-    color: #FFFFFF;
-} */
-
 .profile__title {
     font-weight: 600;
     font-size: 18px;
