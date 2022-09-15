@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+    <link rel="stylesheet" href="../../static/styles/reset.css">
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <form class="signup-form">
+        <span class="signup-form__title">Регистрация</span>
+    
+        <div class="signup-form__wrapper">
+            <label>Почта
+                <input type="email" name="email" class="signup-form__email">
+            </label>
+            <span class="signup-form__error"></span>
+        </div>
+
+        <div class="signup-form__wrapper">
+            <label>Логин
+                <input type="text" name="login" class="signup-form__login">
+            </label>
+            <span class="signup-form__error"></span>
+        </div>
+
+        <div class="signup-form__wrapper">
+            <label>Имя
+                <input type="text" name="first_name" class="signup-form__first-name">
+            </label>
+            <span class="signup-form__error"></span>
+        </div>
+
+        <div class="signup-form__wrapper">
+            <label>Фамилия
+                <input type="text" name="second_name" class="signup-form__second-name">
+            </label>
+            <span class="signup-form__error"></span>
+        </div>
+        
+        <div class="signup-form__wrapper">
+            <label>Телефон
+                <input type="tel" name="phone" class="signup-form__phone">
+            </label>
+            <span class="signup-form__error"></span>
+        </div>
+
+        <div class="signup-form__wrapper">
+            <label>Пароль
+                <input type="password" name="password" class="signup-form__password">
+            </label>
+            <span class="signup-form__error"></span>
+        </div>
+
+        <div class="signup-form__wrapper">
+            <label>Пароль (ещё раз)
+                <input type="password" name="confirm_password" class="signup-form__password">
+            </label>
+            <span class="signup-form__error">Пароли не совпадают</span>
+        </div>
+    
+        <button type="submit" class="signup-form__button">Зарегистрироваться</button>
+    
+        <a href="../login/login.hbs" class="signup-form__login">Войти</a>
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    font-weight: 600;
+    font-size: 44px;
+    margin-bottom: 25px;
+}
+
+.sorry {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.back {
+    font-weight: 500;
+    font-size: 20px;
+    color: #3369F3;
+}
+
+.container img {
+    margin-left: 200px;
+    width: 300px;
+}
