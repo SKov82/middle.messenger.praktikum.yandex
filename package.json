@@ -7,12 +7,12 @@
   "scripts": {
     "dev": "parcel --no-cache",
     "build": "parcel build",
-    "express": "yarn run start"
+    "express": "npm run start"
   },
   "keywords": [],
   "author": "",
   "engines": {
-    "node": ">=16"
+    "node": "16.14.2"
   },
   "license": "ISC",
   "devDependencies": {
