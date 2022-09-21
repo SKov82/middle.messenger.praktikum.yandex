@@ -1,29 +1,29 @@
 ---
 title: "Web chat | Login"
 styles:
-    - "./styles/login.css"
+    - "./styles/auth.css"
 ---
 
 {{!< base}}
 
-<form class="login-form">
-    <span class="login-form__title">Вход</span>
+<form class="auth-form">
+    <span class="auth-form__title">Вход</span>
 
-    <div class="login-form__wrapper">
+    <div class="auth-form__wrapper">
         <label>Логин
             <input type="text" name="login" class="login-form__login">
         </label>
-        <span class="login-form__error">Неверный логин</span>
+        <span class="auth-form__error">Неверный логин</span>
     </div>
 
-    <div class="login-form__wrapper">
+    <div class="auth-form__wrapper">
         <label>Пароль
             <input type="password" name="password" class="login-form__password">
         </label>
-        <span class="login-form__error">Неверный пароль</span>
+        <span class="auth-form__error">Неверный пароль</span>
     </div>
 
-    <button type="submit" class="login-form__button">Войти</button>
+    <button type="submit" class="auth-form__button auth-form__button_login">Войти</button>
 
-    <a href="signup.hbs" class="login-form__signup">Нет аккаунта?</a>
+    <a href="signup.hbs" class="auth-form__auth">Нет аккаунта?</a>
 </form>
