@@ -16,6 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars": "1.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
     "autoprefixer": "10.4.11",
     "cssnano": "5.1.13",
     "eslint": "8.23.1",
