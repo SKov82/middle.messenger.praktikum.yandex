@@ -6,6 +6,8 @@
 /.parcel-cache
 /.pnp
 .pnp.js
+/.pnp.cjs
+/.pnp.loader.mjs
 
 # testing
 /coverage
